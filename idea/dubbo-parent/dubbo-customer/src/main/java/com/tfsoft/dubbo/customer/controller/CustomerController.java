@@ -14,7 +14,11 @@ public class CustomerController {
 
    @RequestMapping("/toIndex")
     public String toIndex(){
+       return "index";
+   }
+   @RequestMapping("/invokeService")
+    public String invokeService() {
        String name = customerService.getName();
        return name;
-   }
+    }
 }

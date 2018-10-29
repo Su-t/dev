@@ -38,7 +38,7 @@
 
 
   <!-- web.xml配置DispatcherServlet，配置这个是拦截所有请求，都交给springmvc转发 -->
-  <!-- <servlet>
+  <servlet>
      <servlet-name>spring-mvc</servlet-name>
      <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
      <init-param>
@@ -47,9 +47,6 @@
      </init-param>
      <load-on-startup>1</load-on-startup>
    </servlet>
-
-
-
    <servlet-mapping>
      <servlet-name>spring-mvc</servlet-name>
      <url-pattern>*.json</url-pattern>
@@ -57,5 +54,5 @@
    <servlet-mapping>
      <servlet-name>spring-mvc</servlet-name>
      <url-pattern>*.htm</url-pattern>
-   </servlet-mapping>-->
+   </servlet-mapping>
 </web-app>
