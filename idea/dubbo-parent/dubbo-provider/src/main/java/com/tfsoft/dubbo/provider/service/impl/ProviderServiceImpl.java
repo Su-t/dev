@@ -8,7 +8,7 @@ public class ProviderServiceImpl implements ProviderService {
     //你好苏腾
     @Override
     public String getName() {
-        return "苏腾";
+        return "st";
     }
 
     //你好dubbo

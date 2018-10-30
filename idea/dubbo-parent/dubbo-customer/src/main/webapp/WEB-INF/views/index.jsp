@@ -18,7 +18,7 @@
 </html>
 <script>
     $("#button").click(function(){
-        window.location.href = window.location.protocol + "//" + window.location.host + "/index/invokeService.htm";
+        window.location.href =  "http://192.168.159.103:8080/index/invokeService.htm";
         /*var data ={username:'st',password:'123456'};
         $.ajax({
             url:"http://localhost:8080/index/invokeService.json",
