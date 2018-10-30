@@ -1,5 +1,7 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<script>
+    window.location.href = window.location.protocol + "//" + window.location.host + "/index/toIndex.htm";
+</script>
 </body>
 </html>
