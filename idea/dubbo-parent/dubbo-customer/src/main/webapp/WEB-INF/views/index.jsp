@@ -10,7 +10,7 @@
 <head>
     <title>dubbo</title>
 </head>
-<script  src="jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript"  src="../static/js/jquery-3.3.1.min.js"></script>
 <body>
 <input id="button" type="button" value="调用Service">
 </body>
