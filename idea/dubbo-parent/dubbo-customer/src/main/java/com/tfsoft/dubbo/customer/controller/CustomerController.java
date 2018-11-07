@@ -15,17 +15,17 @@ public class CustomerController {
 
     @Autowired
     private CustomerService customerService;
-
+    //进入首页
    @RequestMapping("/toIndex")
     public String toIndex(){
        return "index";
    }
-   @ResponseBody
+   //调用dubbo服务
    @RequestMapping( value = "/invokeService",method = RequestMethod.GET)
-    public User invokeService() {
+    public String invokeService() {
        User outUser = new User();
        String name = customerService.getName();
        outUser.setUsername(name);
-       return outUser;
+       return "dubboSucc";
     }
 }
