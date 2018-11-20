@@ -31,6 +31,12 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+    <!--添加jastjson依赖包-->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.15</version>
+    </dependency>
   </dependencies>
 
   <build>
